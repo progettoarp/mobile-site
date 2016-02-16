@@ -1,7 +1,7 @@
     body,html{
 		height: 100%;
-        width: 1349px;
-    	max-width: 1349px;
+        width: 700px;
+    	max-width: 700px;
 	}
 
 	/* remove outer padding */
@@ -24,10 +24,9 @@
         float:right;*/
         position: absolute;
     display: flex;
-    width: calc(100% - 343px);
+    width: 700px;
     height: 100%;
     float: right;
-    margin-left: 343px;
     overflow-y:auto;
         
         }

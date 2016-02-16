@@ -21,7 +21,7 @@
 	{
 		echo ' 		<meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="viewport" content="width=1349">
+        <meta name="viewport" content="width=700">
 		<link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
 		<link href="bootstrap-3.3.5-dist/css/bootstrap-theme.css" rel="stylesheet" type="text/css">
 		<script src="bootstrap-3.3.5-dist/js/bootstrap.js" type="text/javascript"></script>
