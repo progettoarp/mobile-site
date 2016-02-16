@@ -2,7 +2,6 @@
 	<head>
 		<title>Home - Leila</title>
         <link href="res/css/temp-luca.css" rel="stylesheet" type="text/css">
-        <link href="res/css/sveglie.css" rel="stylesheet" type="text/css"/> 
 		<?php
 			include("functions.php");
 			getResource();
@@ -31,6 +30,5 @@
                 ?>
             </div>
 		</div>
-	<script src="res/js/clock.js"></script>
     </body>
 </html>

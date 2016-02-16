@@ -6,10 +6,8 @@
     margin:0 auto;
 }
 #forecast-container{
-	width:281px;
+	width:100%;
 	height:100%;
-	margin-left:2%;
-	overflow: hidden;
     
 }
 .forecast-switcher{
@@ -517,14 +515,14 @@
 
 .weatherCard {
     width: 100%;
-    height: 140px;
+    height: 225px;
     font-family: 'Open Sans';
     position: relative;
     overflow:hidden;
     color: #333333 !important;
 }
 .currentTemp{
-	width: 55%;
+	width: 40%;
 	height: 100%;
 	/*background: rgb(41, 41, 41);*/
     background: #8ce196;
@@ -533,29 +531,25 @@
 	left: 0;
 }
 .currentWeather{
-	width: 45%;
+	width: 38%;
     height: 100%;
-    /*background: rgb(237, 237, 237);*/
     background: #8ce196;
     margin: 0;
     position: absolute;
     top: 0;
-    right: 0;
+    left: 40%;
 }
 .temp{
-	line-height: 140px;
-    font-size: 66px;
+	    line-height: 225px;
+    font-size: 100px;
 	text-align: center;
 	display: block;
 	font-weight: 300;
-	/*color: rgb(255, 255, 255);*/
-    color: rgb();
 }
 .location{
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 700;
-	margin-top: -12px;
     font-size: 28px;
 	display: block;
 }
@@ -568,30 +562,30 @@
 }
 .info{
 	width: 100%;
-	height: 45px;
+	height: 70px;
 	position: absolute;
-	bottom: 0;
 	right: 0;
-	/*background: rgb(42, 178, 234);*/
+	bottom:0;
     background: #8ce196;
 	font-weight: 700;
-	/*color: rgb(255, 255, 255);*/
 	text-align: center;
 }
 .w-rain {
 	width: 50%;
-	position: absolute;
-	left: 10px;
-	word-spacing: 60px;
-	top: 3px;
+    position: absolute;
+    left: 0px;
+    line-height: 52px;
+    word-spacing: 2px;
+    top: 3px;
 }
 .w-rain::before{
 	display: block;
-	content: '\f04e';
-	font-family: weathericons;
-	font-size: 30px;
-	left: 6px;
-	position: absolute;
+    content: '\f04e';
+    font-family: weathericons;
+    font-size: 52px;
+    line-height: 52px;
+    margin-top: 4px;
+    position: absolute;
 }
 .wind {
 	width: 50%;
@@ -604,76 +598,40 @@
 	display: block;
 	content: '\f050';
 	font-family: weathericons;
-	font-size: 20px;
 	left: -10px;
 	position: absolute;
-	top: 5px;
+	 line-height: 52px;
+    margin-top: 4px;
+	font-size: 37px;
 }
 .griglia_giorni {
 	background: rgb(237, 237, 237);
 	font-weight: 700;
 	color: rgb(41, 41, 41);
-	text-align: center;
-	width: 100%;
-	height: 55px;
 	font-family: 'Open Sans';
 	position: relative;
+	width: 22%;
+    height: 100%;
+    background: #8ce196;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+	text-align:center;
 }
-.giorno1 {
-	width: 33%;
-	position: absolute;
-	word-spacing: 160px;
-	top: 10px;
+.giorno{
+	    width: 100%;
+    height: 17%;
+    word-spacing: 35px;
+    font-size: 25px;
+    margin: 28px 0;
 }
-.giorno1::before{
+.giorno::before{
 	display: block;
 	font-size: 40px;
 	left: 6px;
 	top: 15%;
-	position: absolute;
-}
-.giorno2 {
-	width: 33%;
-	position: absolute;
-	word-spacing: 160px;
-	top: 10px;
-	left: 33%;
-}
-.giorno2::before{
-	display: block;
-	font-size: 40px;
-	left: 6px;
-	top: 15%;
-	position: absolute;
-}
-.giorno3 {
-	width: 33%;
-	position: absolute;
-	word-spacing: 160px;
-	top: 10px;
-	left: 66%;
-}
-.giorno3::before{
-	display: block;
-	font-size: 40px;
-	left: 6px;
-	top: 15%;
-	position: absolute;
-}
-.giorno4 {
-	width: 25%;
-	position: absolute;
-	word-spacing: 160px;
-	top: 10px;
-	left: 75%;
-}
-.giorno4::before{
-	display: block;
-	font-size: 40px;
-	left: 6px;
-	top: 15%;
-	position: absolute;
 }
 .forecast{
-margin-top:40px;
+margin: 22px;
 background-color:#8ce196;}
